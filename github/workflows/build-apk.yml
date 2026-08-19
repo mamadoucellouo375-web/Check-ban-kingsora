@@ -35,7 +35,7 @@ jobs:
           cp android-icons/logo-source.png resources/icon.png
 
       - name: Generate Android icons from logo
-        run: npx capacitor-assets generate --android --iconBackgroundColor '#000000' --iconBackgroundColorDark '#000000'
+        run: npx capacitor-assets generate --android --iconBackgroundColor '#0a0705' --iconBackgroundColorDark '#0a0705'
 
       - name: Sync Capacitor
         run: npx cap sync android

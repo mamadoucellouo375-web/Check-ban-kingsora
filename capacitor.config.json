@@ -1,0 +1,9 @@
+{
+  "appId": "com.thekingsora.app",
+  "appName": "The Kingsora",
+  "webDir": "inconnuboy",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true
+  }
+}
